@@ -23,11 +23,12 @@
         {{! Everything inside the #post tags pulls data from the post }}
         {{content}}
         
-        <p class="meta">
+        <footer class="post-footer">
+          <p class="meta">
                 <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
                 <span class="tags">{{tags prefix="on "}}</span>
-        </p>
-
+          </p>
+        </footer>
         <footer class="post-footer">
             
             <div id="disqus_thread"></div>
